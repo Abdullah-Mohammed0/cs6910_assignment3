@@ -1,0 +1,40 @@
+2023-05-12 03:12:32,717 INFO    Thread-5 (_run_job):356763 [wandb_setup.py:_flush():76] Configure stats pid to 356763
+2023-05-12 03:12:32,717 INFO    Thread-5 (_run_job):356763 [wandb_setup.py:_flush():76] Loading settings from /home/abdullah/.config/wandb/settings
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_setup.py:_flush():76] Loading settings from /home/abdullah/Desktop/Courses/Sem6/CS6910/A3/wandb/settings
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'hyperparam-search-seq2seq', 'entity': 'abdullah_010', 'root_dir': '/home/abdullah/Desktop/Courses/Sem6/CS6910/A3', 'sweep_id': 'g9uq8j54', 'run_id': 'fxioify8', 'sweep_param_path': '/home/abdullah/Desktop/Courses/Sem6/CS6910/A3/wandb/sweep-g9uq8j54/config-fxioify8.yaml'}
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_init.py:_log_setup():506] Logging user logs to /home/abdullah/Desktop/Courses/Sem6/CS6910/A3/wandb/run-20230512_031232-fxioify8/logs/debug.log
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_init.py:_log_setup():507] Logging internal logs to /home/abdullah/Desktop/Courses/Sem6/CS6910/A3/wandb/run-20230512_031232-fxioify8/logs/debug-internal.log
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff355e02980>
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():546] calling init triggers
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():552] wandb.init called with sweep_config: {'beam_width': 1, 'cell_type': 'lstm', 'dropout': 0.3, 'embedding_size': 64, 'epochs': 2, 'hidden_layer_size': 128, 'learning_rate': 0.01, 'num_hidden_layers': 3, 'optimizer': 'Adam'}
+config: {}
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():602] starting backend
+2023-05-12 03:12:32,718 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():606] setting up manager
+2023-05-12 03:12:32,722 INFO    Thread-5 (_run_job):356763 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-12 03:12:32,726 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():613] backend started and connected
+2023-05-12 03:12:32,756 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_config_callback():1249] config_cb None None {'beam_width': 1, 'cell_type': 'lstm', 'dropout': 0.3, 'embedding_size': 64, 'epochs': 2, 'hidden_layer_size': 128, 'learning_rate': 0.01, 'num_hidden_layers': 3, 'optimizer': 'Adam'}
+2023-05-12 03:12:32,758 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-05-12 03:12:32,759 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-12 03:12:32,759 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():701] updated telemetry
+2023-05-12 03:12:32,766 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-05-12 03:12:40,532 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_on_init():2131] communicating current version
+2023-05-12 03:12:41,268 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_on_init():2140] got version response upgrade_message: "wandb version 0.15.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-12 03:12:41,268 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():789] starting run threads in backend
+2023-05-12 03:12:44,274 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_console_start():2112] atexit reg
+2023-05-12 03:12:44,274 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_redirect():1967] redirect: SettingsConsole.WRAP_RAW
+2023-05-12 03:12:44,275 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2023-05-12 03:12:44,275 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_redirect():2057] Redirects installed.
+2023-05-12 03:12:44,275 INFO    Thread-5 (_run_job):356763 [wandb_init.py:init():831] run started, returning control to user process
+2023-05-12 03:24:45,979 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_finish():1852] finishing run abdullah_010/hyperparam-search-seq2seq/fxioify8
+2023-05-12 03:24:45,979 INFO    Thread-5 (_run_job):356763 [jupyter.py:save_history():445] not saving jupyter history
+2023-05-12 03:24:45,979 INFO    Thread-5 (_run_job):356763 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-05-12 03:24:45,979 INFO    Thread-5 (_run_job):356763 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2023-05-12 03:24:45,979 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_atexit_cleanup():2081] got exitcode: 0
+2023-05-12 03:24:45,980 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_restore():2064] restore
+2023-05-12 03:24:45,980 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_restore():2070] restore done
+2023-05-12 03:24:57,152 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2023-05-12 03:24:57,152 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2023-05-12 03:24:57,155 INFO    Thread-5 (_run_job):356763 [wandb_run.py:_footer_sync_info():3387] logging synced files
