@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.11.1",
+    "heartbeatAt": "2023-05-21T16:25:32.409107",
+    "startedAt": "2023-05-21T16:25:30.430590",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Abdullah-Mohammed0/cs6910_assignment3.git",
+        "commit": "d11813cc1db24aad384ff7e2f7d48e459750ce35"
+    },
+    "email": null,
+    "root": "C:/Users/ASMA MOHAMMED/Downloads/DL Assignment/cs6910_assignment3",
+    "host": "LAPTOP-L6KIOC2N",
+    "username": "ASMA MOHAMMED",
+    "executable": "c:\\Users\\ASMA MOHAMMED\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "total": 930.6702308654785,
+        "used": 106.24514770507812
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.262615203857422
+    }
+}
