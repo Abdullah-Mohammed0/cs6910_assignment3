@@ -11,7 +11,7 @@ The code for each question is separately contained in the final cells of the not
 
 **Note:** Ensure that the cells are executed in the order presented in the notebook. Not doing so may result in incorrect results and/or errors.
 
-The trained encoder and decoder for the vanilla and attention-based models have been stored 
+The trained encoder and decoder for the vanilla and attention-based models have been stored in the folders **vanilla_model** and **attention_model** respecively. The functions Q4() and Q5() in the notebook contain the code used to generate them as well as the corresponding outputs, which are stored in the folders **prediction_vanilla** and **predictions_attention** respectively,
 
 ### Instructions to install font for Manipuri:
 
