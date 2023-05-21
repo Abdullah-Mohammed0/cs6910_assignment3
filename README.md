@@ -13,6 +13,8 @@ The code for each question is separately contained in the final cells of the not
 
 The trained encoder and decoder for the vanilla and attention-based models have been stored in the folders **vanilla_model** and **attention_model** respecively. The functions Q4() and Q5() in the notebook contain the code used to generate them as well as the corresponding outputs, which are stored in the folders **prediction_vanilla** and **predictions_attention** respectively.
 
+To train the model with custom hyperparameter values, use the configuration dictionaries specified at the start of the final two cells, *config_vanilla* and *config_attention*, which set the hyperparameters for the vanilla and attention-based models respectively. Runinng the functions trains these models on the given configurations. To train the best model, uncomment the part of code commented out and use the default configuration provided.
+
 ### Instructions to install font for Manipuri:
 
 Since the models have been trained to achieve transliteration from English to Manipuri, the font associated with Manipuri has also been provided in this repository as **NotoSansMeeteiMayek-Regular.ttf**. This font needs to be installed in the system to view the cell outputs. 
